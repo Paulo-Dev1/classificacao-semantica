@@ -1,0 +1,4 @@
+embeddings.json
+.env
+.env.*
+!.env.example

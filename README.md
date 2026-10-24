@@ -32,6 +32,32 @@ O repositório está organizado em duas partes principais:
 
 Este projeto faz parte da minha jornada de aprendizado em Inteligência Artificial aplicada ao desenvolvimento de software, explorando conceitos de visão computacional, embeddings, algoritmos de classificação e integração entre componentes de uma aplicação.
 
+## ⚙️ Configuração necessária
+
+Para executar o projeto localmente, é necessário configurar os seguintes recursos:
+
+### 1. Embeddings de imagens
+
+Gerar ou disponibilizar os embeddings utilizados pelo classificador para representar as características das imagens e permitir a comparação por similaridade com o algoritmo KNN.
+
+> **Status:** pendente de configuração.
+
+### 2. Chave da API Gemini
+
+O projeto utiliza integração com o Gemini, que requer uma chave de API válida para funcionar.
+
+1. Acesse o [Google AI Studio](https://aistudio.google.com/apikey).
+2. Crie ou consulte uma chave de API.
+3. Configure a chave no arquivo de variáveis de ambiente do serviço, conforme esperado pela aplicação.
+
+**Importante:** não compartilhe sua chave de API nem a envie para o GitHub. Utilize variáveis de ambiente e mantenha o arquivo `.env` fora do controle de versão.
+
+> **Status:** pendente de configuração.
+
+### 🔐 Variáveis de ambiente
+
+Configure as variáveis necessárias no arquivo `.env` local, de acordo com os nomes esperados pelo código do projeto. Não utilize credenciais reais no repositório.
+
 ## 👨‍💻 Autor
 
 **Paulo Miguel**
